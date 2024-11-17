@@ -8,12 +8,12 @@ export default function Navbar() {
   };
 
   return (
-    <header className="flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px]
+    <header className="flex shadow-md px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px]
             ">
       <div className="flex flex-wrap items-center justify-between gap-5 w-full">
         {/* Logo */}
         <a href="#" >
-          <h1 className='text-black font-black text-xl'>Sturdy<span className='italic text-[#007bff]'>Padi</span></h1>
+          <h1 className='text-black font-black text-xl lg:text-3xl'>Sturdy<span className='italic text-[#007bff]'>Padi</span></h1>
         </a>
 
         {/* Navbar Links */}
@@ -37,7 +37,7 @@ export default function Navbar() {
             </svg>
           </button>
 
-          <ul className="lg:flex gap-x-5 p-6 space-y-3">
+          <ul className="lg:flex gap-x-5 p-6 space-y-3 lg:items-center justify-center flex-row">
             {/* Conditionally Render Logo in Mobile Sidebar */}
             {menuOpen && (
               <li className="mb-6 lg:hidden">
@@ -50,11 +50,11 @@ export default function Navbar() {
               (text) => (
                 <li
                   key={text}
-                  className="border-b border-gray-300 py-3 px-3 lg:border-none"
+                  className="border-b border-gray-300 py-3 px-3 lg:border-none "
                 >
                   <a
                     href="#"
-                    className="hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]"
+                    className="hover:text-[#007bff] text-gray-500 block font-semibold text-[15px]    lg:text-lg"
                   >
                     {text}
                   </a>

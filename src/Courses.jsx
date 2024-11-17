@@ -12,13 +12,15 @@ function Courses(){
 
   return (
 
-    <div className="my-7 py-8 md:mx-9">
-        <h1 className="text-center font-extrabold text-3xl md:text-4xl md:mb-4 ">Explore Popular Tech Niches</h1>
+    <div className="my-7 py-8 md:mx-9 lg:pt-32">
+        <h1 className="text-center font-extrabold text-3xl md:text-4xl md:mb-4 lg:py-9  lg:text-5xl">Explore Popular Tech Niches</h1>
 
-<div className="overflow-x-auto flex gap-4 p-4">
+        <div className="overflow-x-auto flex gap-4 p-4 lg:grid lg:grid-cols-3 lg:gap-6 lg:gap-y-20 lg:justify-items-center">
+
 
   {/* Card 1 */}
-  <div className="flex-none w-[330px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+  <div className="flex-none w-[330px] lg:w-[400px] rounded-lg bg-white shadow-lg dark:bg-neutral-700"
+  >
   <img
         className="rounded-t-lg h-2/5  w-full" 
         src={front}
@@ -35,7 +37,7 @@ function Courses(){
   </div>
 
     {/* capb-2 */}
-    <div className="flex-none w-[330px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+    <div className="flex-none w-[330px] lg:w-[400px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
   <img
         className="rounded-t-lg h-2/5 w-full " 
         src={back}
@@ -52,7 +54,7 @@ function Courses(){
   </div>
 
   {/* card 3 */}
-  <div className="flex-none w-[330px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+  <div className="flex-none w-[330px] lg:w-[400px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
   <img
         className="rounded-t-lg h-2/5 w-full " 
         src={data}
@@ -71,7 +73,7 @@ function Courses(){
 
   {/* card 4 */}
 
-  <div className="flex-none w-[330px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+  <div className="flex-none w-[330px] lg:w-[400px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
   <img
         className="rounded-t-lg w-full h-2/5 " 
         src={design}
@@ -91,7 +93,7 @@ function Courses(){
 
   {/* card 5 */}
 
-  <div className="flex-none w-[330px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+  <div className="flex-none w-[330px] lg:w-[400px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
   <img
         className="rounded-t-lg h-2/5 w-full " 
         src={security}
@@ -111,7 +113,7 @@ function Courses(){
 
   {/* card 6 */}
 
-  <div className="flex-none w-[350px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+  <div className="flex-none w-[330px] lg:w-[400px] rounded-lg bg-white shadow-lg dark:bg-neutral-700">
   <img
         className="rounded-t-lg pb-2/5 w-full h-2/5" 
         src={manage}

@@ -4,13 +4,13 @@ import mySvg3 from "./assets/guide.svg"
     function How(){
 
     return(
-      <section className="md:mx-8 md:mt-9 mt-10">
+      <section className="md:mx-8 md:mt-9 mt-10 lg:px-10">
 
-        <h1 className="text-center font-extrabold text-3xl  md:text-4xl md:py-4 ">How It Works</h1>
+        <h1 className="text-center font-extrabold text-3xl  md:text-4xl md:py-4 lg:py-10 lg:text-5xl">How It Works</h1>
 
-        <div className="grid md:grid-cols-3  md:px-4  mb-12">
+        <div className="grid md:grid-cols-3  md:px-4  mb-12 lg:gap-3 lg:shadow-md">
 
-        <div className="bg-white p-6 shadow rounded-md">
+        <div className="bg-white p-6 shadow rounded-md lg:hover:scale-110 lg:hover:border lg:hover:border-blue-600">
             <div className="bg-blue-200 rounded-md w-[70px] h-[70px] flex items-center justify-center mb-3 shadow-blue-400 shadow-sm">
             <img src={mySvg1} alt="" className="w-11 h-11" />
             </div>
@@ -19,7 +19,7 @@ import mySvg3 from "./assets/guide.svg"
           <p className="text-sm text-gray-600">Answer a series of engaging questions designed to analyze your strengths, preferences, and aspirations.</p>
         </div>
 
-        <div className="bg-white p-6 shadow rounded-md">
+        <div className="bg-white p-6 shadow rounded-md lg:hover:scale-110 lg:hover:border lg:hover:border-blue-600">
 
         <div className="bg-blue-200 rounded-md w-[70px] h-[70px] flex items-center justify-center mb-3 shadow-blue-400 shadow-sm">
             <img src={mySvg3} alt="" className="w-11 h-11" />
@@ -29,7 +29,7 @@ import mySvg3 from "./assets/guide.svg"
           <p className="text-sm text-gray-600">Receive an insightful report suggesting the tech niche that fits you best, we guide you towards where you’ll thrive.</p>
         </div>
 
-        <div className="bg-white p-6 shadow rounded-md">
+        <div className="bg-white p-6 shadow rounded-md lg:hover:scale-110 lg:hover:border lg:hover:border-blue-600">
 
         <div className="bg-blue-200 rounded-md w-[70px] h-[70px] flex items-center justify-center mb-3 shadow-blue-400 shadow-sm">
             <img src={mySvg2} alt="" className="w-11 h-11" />

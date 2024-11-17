@@ -1,16 +1,17 @@
 
 function Footer(){
+  const currentYear = new Date().getFullYear();
     return(
         <footer className="bg-gray-900 p-10 font-[sans-serif] tracking-wide">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:mx-7">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:mx-7 lg:flex lg:justify-between lg:mx-16">
         <div className="lg:flex lg:items-center ">
           <a href="#">
-          <h1 className='text-white font-black text-4xl text-center'>Sturdy<span className='italic text-[#007bff]'>Padi</span></h1>
+          <h1 className='text-white font-black text-4xl text-center lg:5xl'>Sturdy<span className='italic text-[#007bff]'>Padi</span></h1>
           </a>
         </div>
 
 
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-between lg:gap-24 ">
         <div>
           <h4 className="text-lg font-semibold mb-6 text-white">Contact Us</h4>
           <ul className="space-y-4">
@@ -42,7 +43,7 @@ function Footer(){
 
       </div>
 
-      <p className='text-white text-center text-sm mt-10'>©Sturdy<span className='italic text-[#007bff]'>Padi</span> . All rights reserved.</p>
+      <p className='text-white text-center text-sm mt-10 lg:text-lg'>©Sturdy<span className='italic text-[#007bff]'>Padi </span> {currentYear} . All rights reserved.</p>
     </footer>
     )
 }
