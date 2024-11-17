@@ -12,8 +12,8 @@ function Courses(){
 
   return (
 
-    <div className="py-7">
-        <h1 className="text-center font-extrabold text-3xl ">Explore Popular Tech Niches</h1>
+    <div className="my-7 py-8 md:mx-9">
+        <h1 className="text-center font-extrabold text-3xl md:text-4xl md:mb-4 ">Explore Popular Tech Niches</h1>
 
 <div className="overflow-x-auto flex gap-4 p-4">
 
